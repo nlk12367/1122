@@ -1,19 +1,54 @@
 {
+  "schema_version": "1.0",
   "project": "engineering-math-learning",
   "language": "zh-TW",
   "repository": "nlk12367/1122",
-  "scope": {
+  "course": "工程數學",
+  "exam": {
+    "date": "2026-11-24",
+    "scope": ["Week 7", "Week 8", "Week 9", "Week 10", "Week 11"],
+    "excluded_exam_references": ["Week 1-5 Midterm A/B/C/D"]
+  },
+  "learning_scope": {
     "primary_weeks": [7, 8, 9, 10, 11],
     "review_weeks": [1, 2, 3, 4, 5],
-    "midterm_references": ["A", "B", "C", "D"]
+    "review_only_when_needed": true
   },
-  "skills": [],
-  "qa_records": [],
-  "mistakes": [],
-  "quizzes": [],
-  "continuation": {
-    "status": "not_started",
-    "next_session": null,
-    "notes": "等待實際教學紀錄匯入"
-  }
+  "skill_scale": {"min": 0, "max": 5, "unassessed": null},
+  "skills": [
+    {"id":"W7-01","name":"線性方程式辨識","level":4},
+    {"id":"W7-02","name":"齊次與非齊次辨識","level":3},
+    {"id":"W7-03","name":"不同實根與通解","level":4},
+    {"id":"W7-04","name":"重根與通解","level":4},
+    {"id":"W7-05","name":"複數根與通解","level":3},
+    {"id":"W7-06","name":"初始條件求特解","level":3},
+    {"id":"W7-07","name":"Wronskian與線性獨立","level":3},
+    {"id":"W8-01","name":"降階法","level":3},
+    {"id":"W8-02","name":"乘積法則與二階導數","level":2},
+    {"id":"W9-01","name":"未定係數法基本題","level":3},
+    {"id":"W9-02","name":"共振時的試探解修正","level":2},
+    {"id":"W10-01","name":"參數變動法","level":null},
+    {"id":"W11-01","name":"待確認","level":null}
+  ],
+  "mistake_index": ["M001","M002","M003","M004","M005","M006"],
+  "quiz_index": ["Q001","Q002","Q003","Q004","Q005","Q006","Q007","Q008","Q009"],
+  "assessment_status": {
+    "formal_week7_to_11_mock_exam_completed": false,
+    "scores_are_provisional": true,
+    "assisted_practice_is_not_independent_mastery": true
+  },
+  "next_session": {
+    "week": 9,
+    "topic": "未定係數法",
+    "focus": "共振時的試探解與二階導數",
+    "next_step": "獨立完成一題共振型非齊次方程式"
+  },
+  "continuation": {"status":"in_progress","next_session":"Week 9 未定係數法"},
+  "notes": [
+    "二階導數乘積法則是主要弱點",
+    "複數根計算需注意根號與分母",
+    "Week 10與Week 11尚未具備評分證據",
+    "本次考試不使用Week 1-5期中考A/B/C/D作為題型依據"
+  ],
+  "source_record": "records/progress-draft-week7-11.md"
 }
