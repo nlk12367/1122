@@ -3,10 +3,9 @@
   "language": "zh-TW",
   "repository": "nlk12367/1122",
   "scope": {
-    "primary_weeks": [7, 8, 9, 10],
+    "primary_weeks": [7, 8, 9, 10, 11],
     "review_weeks": [1, 2, 3, 4, 5],
-    "midterm_references": ["A", "B", "C", "D"],
-    "excluded_weeks": [11]
+    "midterm_references": ["A", "B", "C", "D"]
   },
   "skills": [],
   "qa_records": [],
